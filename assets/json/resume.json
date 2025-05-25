@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Eli McPherson",
+    "label": "Bioinformatician",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "eli.mcpherson@protonmail.ch",
+    "phone": "(760) 468-3354",
+    "url": "https://github.com/ECM893",
+    "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications resulting in robust, accurate, scalable deliverables. In my current role as a bioinformatics consultant, I advise multiple clients on the technical direction of their drug discovery projects, architect machine learning algorithms to analyze multi-omics (e.g. RNASeq, protein abundance, enzyme activity) data pipelines, and use those pipelines to make protein property predictions.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "12 Sunnyside Ave",
+      "postalCode": "MA 02145",
+      "city": "Somerville",
       "countryCode": "US",
-      "region": "California"
+      "region": "Massachusetts"
     },
     "profiles": [
       {
