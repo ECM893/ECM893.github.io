@@ -6,7 +6,7 @@
     "email": "eli.mcpherson@protonmail.ch",
     "phone": "(760) 468-3354",
     "website": "https://thomasedison.com",
-    "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications for robust, accurate, scalable deliverables.",
+    "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications for robust, accurate, scalable deliverables. I have a non-traditional, diverse background (Marine Corps, Peace Corps, small coffee roasting company entrepreneur).",
     "location": {
       "address": "",
       "postalCode": "02145",
@@ -25,11 +25,9 @@
   },
   "work": [
     {
-      "company": "Edison Electric Light Company",
+      "company": "AI/ML Bioinformatics Consulting",
       "position": "Senior Engineer",
-      "website": "https://edison.com",
-      "startDate": "2024-08-01",
-      "endDate": "Present",
+      "startDate": "2024-08",
       "summary": "In my current role as a bioinformatics consultant, I advise multiple clients on the technical direction of their drug discovery projects, architect machine learning algorithms to analyze multi-omics (e.g. RNASeq, protein abundance, enzyme activity) data pipelines, and use those pipelines to make protein property predictions.",
       "highlights": [
         "PDB",
@@ -47,11 +45,11 @@
       "description": "Propose, design, and implement bioinformatics drug target identification pipeline using PDB, GO, and STRING. Independently research viable methods of cell line and disease characterization for optimal client use cases. In one notable instance, identified RNAseq as the most financially viable assay methodology for client needs, and implemented large scRNAseq and bulkRNAseq dataset analysis using Nextflow, as well as associated preprocessing and differential expression analysis. Proposed, designed, and implemented automated neural net architecture (LLM and MLP) tuning, training, and production analysis repositories for a client using Ray, PyTorch, and Scikit-learn on GPUs, cutting down client’s generation of predictive algorithms from large biological datasets from weeks to minutes/hours and maximizing recommended biomolecule feature organisms for customers by 1000%."
     },
     {
-      "company": "General Electric",
+      "company": "Khalil Lab, Boston University",
       "position": "Student Researcher",
-      "website": "https://ge.com",
-      "startDate": "2023-09-01",
-      "endDate": "2024-08-31",
+      "website": "https://www.bu.edu/khalillab/people.html",
+      "startDate": "2023-09",
+      "endDate": "2024-08",
       "summary": "For my Master's thesis, I worked in the Khalil lab to characterize the capabilities of a DIY bioreactor (eVOLVER) for luminescence detection in autonomous bioreactor control.",
       "highlights": [
         "Custom Python modules",
@@ -64,30 +62,86 @@
       "name": "Khalil Lab, Boston University",
       "location": "Boston, MA",
       "url": "https://www.bu.edu/khalillab/people.html"
+    },
+    {
+      "name": "Resonance Medicine",
+      "position": "Senior Research Associate",
+      "startDate": "2023-01",
+      "endDate": "2023-03",
+      "location": "Boston, MA",
+      "url": "",
+      "summary": "I spent a few months helping to close the gaps for my friend's team at Resonance Medicine, where I scaled a directed evolution platform from manual assays to a semi-automated, high-throughput workflow. In the 10 weeks or so I spent at Resonance, my contributions resulted in reduced hands-on experimental time by 75%, directly resulting in improved experimental precision and associated reductions in cost for company’s drug discovery pipeline.",
+      "description": "",
+      "highlights": [
+        "High-throughput lab automation",
+        "Drug discovery"
+      ]
+    },
+    {
+      "name": "Joyn Bio",
+      "position": "Research Associate I/II",
+      "startDate": "2020-09",
+      "endDate": "2022-10",
+      "location": "Boston, MA",
+      "url": "",
+      "summary": "During my time at Joyn Bio (since acquired by Ginkgo Bioworks), I was the company evangelist for automated high-throughput robotics workflows on liquid handlers. I created and validated numerous SOPs to integrate high-throughput protocols throughout the company. I was liaison between internal teams and external collaborators, and communicated verbal and written results of my work at regular intervals to cross-functional teams like Strain Design, Bioengineering, and Leadership.",
+      "description": "",
+      "highlights": [
+        "High-throughput lab automation",
+        "Drug discovery",
+        "Hamilton STAR",
+        "Opentrons",
+        "Echo",
+        "Biostack",
+        "Synergy H1",
+        "JESS"
+      ]
+    },
+    {
+      "name": "Colorado State University",
+      "position": "Research Assistant",
+      "startDate": "2014-08",
+      "endDate": "2017-12",
+      "location": "Fort Collins, CO",
+      "url": "",
+      "summary": "As an undergraduate student, I was hired by a PhD student to develop novel protocols for loading guest molecules into computationally designed protein hosts, and established chemical conjugation workflows to stabilize protein crystals. I continued working at CSU as an RA after my graduation, resulting in two publications.",
+      "description": "",
+      "highlights": [
+        "Chromatography",
+        "Strain design",
+        "DNA extraction",
+        "Directed evolution"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Menlo Park Laboratory",
-      "position": "Lead Researcher",
+      "organization": "Peace Corps Ethiopia",
+      "position": "Health Advocacy Volunteer",
       "website": "https://menloparklab.com",
-      "startDate": "1876-01-01",
-      "endDate": "1931-10-18",
-      "summary": "Conducted research and experiments leading to numerous patents and innovations.",
-      "highlights": [
-        "Developed the phonograph, a device for recording and reproducing sound.",
-        "Invented the motion picture camera, contributing to the birth of the film industry."
-      ]
+      "startDate": "2018-01",
+      "endDate": "2020-03",
+      "summary": "Provided community health education initiatives in Ethiopia.",
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "Boston University",
       "area": "Biomedical Engineering",
-      "studyType": "Master’s of Science",
-      "startDate": "2023-08-01",
-      "endDate": "2024-08-31",
+      "studyType": "Master of Science",
+      "startDate": "2023-08",
+      "endDate": "2024-08",
       "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Colorado State University",
+      "area": "Chemical and Biological Engineering",
+      "studyType": "Bachelor of Science ",
+      "startDate": "2014-09",
+      "endDate": "2017-06",
+      "score": "",
       "courses": []
     }
   ],
@@ -111,21 +165,92 @@
   ],
   "skills": [
     {
-      "name": "Inventing",
-      "level": "Master",
+      "name": "Programming",
+      "level": "",
       "keywords": [
-        "Electricity",
-        "Sound Recording",
-        "Motion Pictures"
+        "Python",
+        "MATLAB",
+        "R"
       ]
     },
     {
-      "name": "Entrepreneurship",
-      "level": "Expert",
+      "name": "Machine Learning & AI",
+      "level": "",
       "keywords": [
-        "Business Development",
-        "Product Innovation",
-        "Industrial Research"
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "OR-Tools",
+        "Ray"
+      ]
+    },
+    {
+      "name": "Bioinformatics",
+      "level": "",
+      "keywords": [
+        "PyMOL",
+        "HMMER",
+        "BLAST",
+        "KEGG",
+        "GO",
+        "STRING",
+        "HISAT2",
+        "STAR",
+        "MultiQC",
+        "Nextflow",
+        "nf-core"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "SQL",
+        "HPC workflows",
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "name": "In-Lab Biological Automation Instrumentation",
+      "level": "",
+      "keywords": [
+        "Hamilton STAR",
+        "Opentrons",
+        "Echo",
+        "Biostack",
+        "Synergy H1",
+        "JESS"
+      ]
+    },
+    {
+      "name": "Laboratory & Experimental Techniques",
+      "level": "",
+      "keywords": [
+        "DNA Extraction",
+        "Chromatography",
+        "Assay Development",
+        "Strain Design",
+        "Directed Evolution",
+        "ELISA",
+        "Fluorescence/Luminescence Assays",
+        "High Throughput Lab Automation",
+        "Drug Discovery"
+      ]
+    },
+    {
+      "name": "Workplace Collaboration & Leadership",
+      "level": "",
+      "keywords": [
+        "SOP generation and validation",
+        "Verbal and written presentation",
+        "Overseeing teams of 2-40",
+        "Translation between cross-functional teams",
+        "Project management ",
+        "High-throughput automation integration"
       ]
     }
   ],
@@ -133,6 +258,10 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Oromo",
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
@@ -142,12 +271,15 @@
         "Innovations",
         "Experimentation"
       ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "keywords": []
+    },
+    {
+      "name": "Entrepreneurship",
+      "keywords": []
     }
   ],
-  "references": [
-    {
-      "name": "Henry Ford",
-      "reference": "Thomas Edison was a brilliant inventor and a visionary businessman. His work has had a profound impact on the modern world."
-    }
-  ]
+  "references": []
 }
