@@ -6,7 +6,7 @@
     "email": "eli.mcpherson@protonmail.ch",
     "phone": "(760) 468-3354",
     "url": "https://github.com/ECM893",
-    "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications resulting in robust, accurate, scalable deliverables. In my current role as a bioinformatics consultant, I advise multiple clients on the technical direction of their drug discovery projects, architect machine learning algorithms to analyze multi-omics (e.g. RNASeq, protein abundance, enzyme activity) data pipelines, and use those pipelines to make protein property predictions.",
+    "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications for robust, accurate, scalable deliverables.",
     "location": {
       "address": "12 Sunnyside Ave",
       "postalCode": "MA 02145",
@@ -16,9 +16,8 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/elimcpherson/"
       }
     ]
   },
@@ -29,10 +28,59 @@
       "position": "Senior Engineer",
       "url": "https://example.com",
       "startDate": "2024-08-01",
-      "endDate": "2025-01-01",
-      "summary": "Propose, design, and implement bioinformatics drug target identification pipelines using PDB, GO, and STRING.", "Independently research viable methods of cell line and disease characterization for optimal client use cases.",
-      "highlights": ["Identified RNAseq as the most financially viable assay methodology for client needs and subsequently implemented large scRNAseq and bulkRNAseq dataset analysis using Nextflow, as well as associated preprocessing and differential expression analysis.", "Proposed, designed, and implemented automated neural net architecture (LLM and MLP) tuning, training, and production analysis repositories for a client using Ray, PyTorch, and Scikit-learn on GPUs, cutting down client’s generation of predictive algorithms from large biological datasets from weeks to minutes/hours and maximizing recommended biomolecule feature organisms for customers by 1000%."]
-    }
+      "endDate": "2025-05-01",
+      "summary": "In my current role as a bioinformatics consultant, I advise multiple clients on the technical direction of their drug discovery projects, architect machine learning algorithms to analyze multi-omics (e.g. RNASeq, protein abundance, enzyme activity) data pipelines, and use those pipelines to make protein property predictions.",
+      "highlights": ["Neural net architecture, tuning, training, production.",
+        "PDB", 
+        "GO", 
+        "STRING",
+        "Nextflow", 
+        "Ray", 
+        "PyTorch", 
+        "scikit-learn", 
+        "GPU high performance computing", 
+        "Ray"
+      ]
+    }, 
+    {
+      "name": "Khalil Lab, Boston University",
+      "location": "Boston, MA",
+      "position": "Student Researcher",
+      "url": "https://www.bu.edu/khalillab/people.html",
+      "startDate": "2023-09-01",
+      "endDate": "2024-08-31",
+      "summary": "For my Master's thesis, I characterized the capabilities of a DIY bioreactor (eVOLVER) for luminescence detection in autonomous bioreactor control.",
+      "highlights": ["Custom Python modules", 
+        "ML algorithms", 
+        "High-throughput automation integration", "Directed evolution", "Assay development", "Fluorescence/luminescence assays"]
+    },
+    {
+      "name": "Resonance Medicine",
+      "location": "Boston, MA",
+      "position": "Senior Research Associate",
+      "startDate": "2023-01-01",
+      "endDate": "2023-03-31",
+      "summary": "I spent a few months helping close the gaps for my friend's team at Resonance Medicine, where I scaled a directed evolution platform from manual assays to a semi-automated, high-throughput workflow. In the 10 weeks or so I spent at Resonance, my contributions resulted in reduced hands-on experimental time by 75%, directly resulting in improved experimental precision and associated reductions in cost for company’s drug discovery pipeline.",
+      "highlights": ["High-throughput lab automation", "Drug discovery"]
+    },
+    {
+      "name": "Joyn Bio",
+      "location": "Boston, MA",
+      "position": "Research Associate I/II",
+      "startDate": "2020-09-01",
+      "endDate": "2022-10-31",
+      "summary": "During my time at Joyn Bio (since acquired by Ginkgo Bioworks), I was the company evangelist for automated high-throughput robotics workflows on liquid handlers. I created and validated numerous SOPs to integrate high-throughput protocols throughout the company. I was liaison between internal teams and external collaborators, and communicated verbal and written results of my work at regular intervals to cross-functional teams like Strain Design, Bioengineering, and Leadership.",
+      "highlights": ["High-throughput lab automation", "Drug discovery", "Hamilton STAR", "Opentrons", "Echo", "Biostack", "Synergy H1", "JESS"]
+    }, 
+    {
+      "name": "Colorado State University",
+      "location": "Fort Collins, CO",
+      "position": "Research Assistant",
+      "startDate": "2014-08-01",
+      "endDate": "2017-12-31",
+      "summary": "As an undergraduate student, I was hired by a PhD student to develop novel protocols for loading guest molecules into computationally designed protein hosts, and established chemical conjugation workflows to stabilize protein crystals. I continued working at CSU as an RA after my graduation, resulting in two publications.",
+      "highlights": ["Chromatography", "Strain design", "DNA extraction", "directed evolution"]
+    },
   ],
   "volunteer": [
     {
