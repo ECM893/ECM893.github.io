@@ -24,13 +24,14 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "AI/ML Bioinformatics Consulting",
+      "location": "Boston, MA",
+      "position": "Senior Engineer",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2024-08-01",
+      "endDate": "2025-01-01",
+      "summary": "Propose, design, and implement bioinformatics drug target identification pipelines using PDB, GO, and STRING.", "Independently research viable methods of cell line and disease characterization for optimal client use cases.",
+      "highlights": ["Identified RNAseq as the most financially viable assay methodology for client needs and subsequently implemented large scRNAseq and bulkRNAseq dataset analysis using Nextflow, as well as associated preprocessing and differential expression analysis.", "Proposed, designed, and implemented automated neural net architecture (LLM and MLP) tuning, training, and production analysis repositories for a client using Ray, PyTorch, and Scikit-learn on GPUs, cutting down client’s generation of predictive algorithms from large biological datasets from weeks to minutes/hours and maximizing recommended biomolecule feature organisms for customers by 1000%."]
     }
   ],
   "volunteer": [
