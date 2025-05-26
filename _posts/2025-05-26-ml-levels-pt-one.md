@@ -1,10 +1,10 @@
 ---
 layout: post
-title: a post with plotly.js
+title: Neural Net Architecture: Part 1
 date: 2025-03-26 14:24:00
-description: this is what included plotly.js code could look like
-tags: formatting charts
-categories: sample-posts
+description: A three-part series on creating a useful neural network
+tags: ML
+categories: 
 chart:
   plotly: true
 ---
