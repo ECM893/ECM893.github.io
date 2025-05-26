@@ -5,7 +5,7 @@ permalink: /
 subtitle: AI/ML Bioinformatics
 
 profile:
-  align: center
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
@@ -27,6 +27,8 @@ Boston-based bioinformatician, and both a Marine Corps and Peace Corps veteran.
 
 I am all about tinkering, tuning, efficiency, excellence.  After years of lab-based work in [protein engineering](https://onlinelibrary.wiley.com/doi/10.1002/smll.201602703), I jumped on the [computational train](https://open.bu.edu/items/f152dd51-429f-4703-be07-eddcdb51919f). I work with Boston-based biopharmaceutical startups, architecting multi-omics data pipelines to make protein property predictions. 
 
-For consulting inquiries, email me. 
+I learned about Machine Learning and AI architecture in graduate school, but have found that there are huge gaps between studying ML/AI in the classroom and actually building useful ML/AI for real-world applications. I write about closing that gap on my [blog](/blog).
+
+For consulting inquiries, [email me](mailto:eli.mcpherson@protonmail.ch). 
 
 Also, I like roasting [coffee](https://www.papercranecoffeeroasters.com/) quite a bit.
