@@ -49,7 +49,7 @@ repo_trophies:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: false
-socials_in_search: true
+socials_in_search: false
 posts_in_search: true
 bib_search: true
 
@@ -195,6 +195,17 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _bibliography/*.bib
+  - _books/*.md
+  - _news/announcement_*.md
+  - _projects/?_project.md
+  - _pages/about_einstein.md
+  - _pages/books.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -268,7 +279,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [McPherson]
-  first_name: [Eli C.]
+  first_name: [Eli]
 
   style: apa
   locale: en
