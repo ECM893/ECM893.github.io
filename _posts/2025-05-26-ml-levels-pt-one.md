@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Neural Net Architecture: Part 1
+title: Neural Net Architecture, Part 1
 date: 2025-03-26 14:24:00
 description: A three-part series on creating a useful neural network
 tags: ML
-categories: 
+categories: blog-posts
 chart:
   plotly: true
 ---
