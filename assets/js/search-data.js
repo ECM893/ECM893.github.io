@@ -23,15 +23,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-neural-net-architecture-part-1",
         
-          title: "",
+          title: "Neural Net Architecture, Part 1",
         
-        description: "",
+        description: "A three-part series on creating a useful neural network",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-05-26-ml-levels-pt-one/";
+            window.location.href = "/blog/2025/ml-levels-pt-one/";
           
         },
       },{id: "post-a-post-with-plotly-js",
