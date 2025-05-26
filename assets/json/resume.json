@@ -118,10 +118,17 @@
     {
       "organization": "Peace Corps Ethiopia",
       "position": "Health Advocacy Volunteer",
-      "website": "https://menloparklab.com",
       "startDate": "2018-01",
       "endDate": "2020-03",
-      "summary": "Provided community health education initiatives in Ethiopia.",
+      "summary": "I lived and worked in a small Ethiopian town, providing community health education initiatives. I planned and led a Girls' Health Retreat with other Peace Corps and community members, and I served as the Peace Corps IT liaison to the village where I lived.",
+      "highlights": []
+    }, 
+    {
+      "organization": "Marine Corps",
+      "position": "Sergeant",
+      "startDate": "2006-08",
+      "endDate": "2010-07",
+      "summary": "I enlisted in the Marine Corps and was promoted from Private to Sergeant within two years. I was deployed to Iraq. By the time I finished my service, I was overseeing a unit of 40 Marines.",
       "highlights": []
     }
   ],
@@ -143,14 +150,6 @@
       "endDate": "2017-06",
       "score": "",
       "courses": []
-    }
-  ],
-  "awards": [
-    {
-      "title": "Congressional Gold Medal",
-      "date": "1928-01-01",
-      "awarder": "United States Congress",
-      "summary": "Awarded for distinguished achievements and contributions to society."
     }
   ],
   "publications": [
