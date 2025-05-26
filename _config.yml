@@ -152,7 +152,7 @@ collections:
   projects:
     output: false
   publications: 
-    output: true
+    output: false
   repositories: 
     output: false
 
