@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI/ML Bioinformatics
+subtitle: ML/AI Bioinformatics
 
 profile:
   align: right
