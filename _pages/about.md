@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. AI/ML Bioinformatics
+subtitle: AI/ML Bioinformatics
 
 profile:
   align: right
