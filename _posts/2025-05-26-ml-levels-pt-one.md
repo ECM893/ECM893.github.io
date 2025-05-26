@@ -19,7 +19,7 @@ New interactive plot below?
 
 
 
-<iframe src="/assets/plotly/model_surfaces.html" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="/assets/plotly/model_surface.html" width="100%" height="600px" style="border:none;"></iframe>
 
 
 ````markdown
