@@ -34,17 +34,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/ml-levels-pt-one/";
           
         },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
       },{
       id: 'light-theme',
       title: 'Change theme to light',
