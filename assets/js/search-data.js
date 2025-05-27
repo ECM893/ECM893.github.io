@@ -34,17 +34,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/ml-levels-pt-one/";
           
         },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
       },{id: "post-a-post-with-typograms",
         
           title: "a post with typograms",
@@ -307,17 +296,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
           
         },
       },{
