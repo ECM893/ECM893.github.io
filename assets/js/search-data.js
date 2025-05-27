@@ -23,11 +23,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-neural-net-architecture-part-1",
+        },{id: "post-neural-net-optimization-part-1-the-computational-graph",
         
-          title: "Neural Net Architecture, Part 1",
+          title: "Neural Net Optimization, Part 1 — The Computational Graph",
         
-        description: "A three-part series on creating a useful neural network",
+        description: "The first in a three-part series exploring neural network optimization, starting from scratch with a toy computational graph and building up to scalable, practical ML systems.",
         section: "Posts",
         handler: () => {
           
