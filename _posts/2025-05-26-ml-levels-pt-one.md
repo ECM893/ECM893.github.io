@@ -89,9 +89,42 @@ EPOCHS = 300
 LR = 0.01
 ```
 
-<iframe src="/assets/plotly/losses.html" frameborder="0" scrolling="no" width="100%" height="300px" style="border:none;display:block;margin:0 auto"></iframe>
+<style>
+.responsive-iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  overflow: hidden;
+}
+.responsive-iframe-container.box {
+  aspect-ratio: 1 / 1;
+}
+.responsive-iframe-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: 100%;
+  border: 0;
+  display: block;
+  overflow: hidden;
+  background: transparent;
+  box-sizing: border-box;
+}
+</style>
+update 4
+<div class="responsive-iframe-container">
+  <iframe src="/assets/plotly/losses.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+</div>
 
-<iframe src="/assets/plotly/model_surface.html" frameborder="0" scrolling="no" width="100%" height="400px" style="border:none;display:block;margin:0 auto"></iframe>
+<div class="responsive-iframe-container box">
+  <iframe src="/assets/plotly/model_surface.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+</div>
 
 ---
 
@@ -107,9 +140,14 @@ EPOCHS = 300
 LR = 0.1
 ```
 
-<iframe src="/assets/plotly/losses_bad.html" frameborder="0" scrolling="no" width="100%" height="300px" style="border:none;display:block;margin:0 auto"></iframe>
 
-<iframe src="/assets/plotly/model_surface_bad.html" frameborder="0" scrolling="no" width="100%" height="400px" style="border:none;display:block;margin:0 auto"></iframe>
+<div class="responsive-iframe-container">
+  <iframe src="/assets/plotly/losses_bad.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+</div>
+
+<div class="responsive-iframe-container box">
+  <iframe src="/assets/plotly/model_surface_bad.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
+</div>
 
 ---
 
