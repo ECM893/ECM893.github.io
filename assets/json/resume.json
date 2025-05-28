@@ -1,11 +1,9 @@
 {
   "basics": {
-    "name": "Eli McPherson",
-    "label": "Bioinformatician",
-    "picture": "https://example.com/photo.jpg",
+    "name": "Eli M\u1d9cPherson",
+    "label": "ML Bioinformatician",
     "email": "eli.mcpherson@protonmail.ch",
-    "phone": "(760) 468-3354",
-    "website": "https://thomasedison.com",
+    "website": "ecm893.github.io",
     "summary": "Bioinformatician with ten years of computational biology and in-lab biological development experience specializing in protein discovery and mapping. Passionate about tinkering and tuning code to balance computing resource utilization with appropriate hardware specifications for robust, accurate, scalable deliverables. I have a non-traditional, diverse background (Marine Corps, Peace Corps, small coffee roasting company entrepreneur).",
     "location": {
       "address": "",
@@ -26,19 +24,18 @@
   "work": [
     {
       "company": "AI/ML Bioinformatics Consulting",
-      "position": "Senior Engineer",
+      "position": "Senior Biomedical Engineer",
       "startDate": "2024-08",
       "summary": "In my current role as a bioinformatics consultant, I advise multiple clients on the technical direction of their drug discovery projects, architect machine learning algorithms to analyze multi-omics (e.g. RNASeq, protein abundance, enzyme activity) data pipelines, and use those pipelines to make protein property predictions.",
       "highlights": [
+        "Nextflow",
         "PDB",
         "GO",
         "STRING",
-        "Nextflow",
         "Ray",
         "PyTorch",
         "scikit-learn",
-        "GPU high performance computing",
-        "Ray"
+        "High Performance Computing"
       ],
       "name": "AI/ML Bioinformatics Consulting",
       "location": "Boston, MA",
@@ -116,19 +113,19 @@
   ],
   "volunteer": [
     {
-      "organization": "Peace Corps Ethiopia",
+      "organization": "Peace Corps - Ethiopia",
       "position": "Health Advocacy Volunteer",
       "startDate": "2018-01",
       "endDate": "2020-03",
-      "summary": "I lived and worked in a small Ethiopian town, providing community health education initiatives. I planned and led a Girls' Health Retreat with other Peace Corps and community members, and I served as the Peace Corps IT liaison to the village where I lived.",
+      "summary": "I lived and worked in a small Ethiopian town, providing community health education initiatives. I planned and led a Girls' Health Retreat with other Peace Corps and community members, and I served as the chair of a committee with the inititive to help improve technological access, resources, and education throughout Ethiopia.",
       "highlights": []
     }, 
     {
-      "organization": "Marine Corps",
-      "position": "Sergeant",
+      "organization": "United States Marine Corps",
+      "position": "Sergeant of Marines",
       "startDate": "2006-08",
       "endDate": "2010-07",
-      "summary": "I enlisted in the Marine Corps and was promoted from Private to Sergeant within two years. I was deployed to Iraq. By the time I finished my service, I was overseeing a unit of 40 Marines.",
+      "summary": "I enlisted in the Marine Corps and was promoted from Private to Sergeant within 4 years. I was deployed to Iraq. By the time I finished my service, I was overseeing a unit of 40 Marines.",
       "highlights": []
     }
   ],
@@ -138,7 +135,7 @@
       "area": "Biomedical Engineering",
       "studyType": "Master of Science",
       "startDate": "2023-08",
-      "endDate": "2024-08",
+      "endDate": "2024-07",
       "gpa": "",
       "courses": []
     },
@@ -155,11 +152,33 @@
   "publications": [
     {
       "name": "Luminescence detection in eVOLVER for autonomous bioreactor control.",
-      "publisher": "Boston University",
+      "publisher": "Boston University (M.S. Thesis)",
+      "authors": [
+        "Eli McPherson"
+      ],
       "releaseDate": "2024",
-      "website": "https://scientificamerican.com",
       "summary": "We describe the design, implementation, and limitations of a luminescence detection system for the eVOLVER parallel benchtop bioreactor system. This addition aims to expand eVOLVER's functionality, particularly in Phage Assisted Continuous Evolution (PACE) platforms by allowing real-time automated feedback control of selection pressure in PACE.",
       "url": "https://hdl.handle.net/2144/49235"
+    },
+    {
+      "name": "Installing Guest Molecules at Specific Sites within Scaffold Protein Crystals",
+      "publisher": "Bioconjugate Chemistry",
+      "releaseDate": "2018",
+      "authors": [
+        "Huber, T. R., McPherson, E. C., Keatng, C. E., & Snow, C. D."
+      ],
+      "summary": "Protein crystals are porous self-assembling materials that can be rapidly evolved by mutagenesis. We aimed to develop scaffold assisted crystallography techniques in an engineered protein crystal with large pores (>13 nm). Guest molecules were installed via a single covalent bond to attempt to reduce the conformational freedom and achieve high-occupancy structures. We used four different conjugation strategies to attach guest molecules to three different cysteine sites within pre-existing protein crystals. In all but one case, the presence of the adduct was obvious in the electron density. Structure determination of larger guest molecules may be feasible due to the large pores of the engineered scaffold crystals.",
+      "url": "https://doi.org/10.1021/acs.bioconjchem.7b00668"
+    },
+    {
+      "name": "Programmed Assembly of Host–Guest Protein Crystals",
+      "publisher": "Small (Weinheim an Der Bergstrasse, Germany)",
+      "releaseDate": "2017",
+      "authors": [
+        "Huber, T. R., Hartje, L. F., McPherson, E. C., Kowalski, A. E., & Snow, C. D."
+      ],
+      "summary": "We seek to develop comparably precise crystalline materials (nanometer precision) that are nonetheless modular and more easily engineered. Our approach uses highly porous protein crystals (pore diameter >8 nm) to decouple crystallization from subsequent assembly steps. We first prepare a porous scaffold crystal and afterward load guest domains within the host crystal.",
+      "url": "https://doi.org/10.1002/smll.201602703"
     }
   ],
   "skills": [
@@ -273,11 +292,17 @@
     },
     {
       "name": "Machine Learning & AI",
-      "keywords": []
+      "keywords": [
+        "Optimization",
+        "Architecture Design"
+      ]
     },
     {
       "name": "Entrepreneurship",
-      "keywords": []
+      "keywords": [
+        "Small Business",
+        "Coffee Roasting"
+      ]
     }
   ],
   "references": []

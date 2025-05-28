@@ -97,9 +97,11 @@ LR = 0.01
   aspect-ratio: 16 / 9;
   height: auto;
   overflow: hidden;
+  min-height: 300px; /* Ensures visibility on mobile */
 }
 .responsive-iframe-container.box {
   aspect-ratio: 1 / 1;
+  min-height: 250px;
 }
 .responsive-iframe-container iframe {
   position: absolute;
@@ -116,8 +118,20 @@ LR = 0.01
   background: transparent;
   box-sizing: border-box;
 }
+@media (max-width: 600px) {
+  .responsive-iframe-container {
+    aspect-ratio: unset;
+    min-height: 220px;
+    height: 220px;
+  }
+  .responsive-iframe-container.box {
+    aspect-ratio: unset;
+    min-height: 180px;
+    height: 180px;
+  }
+}
 </style>
-update 4
+update 7
 <div class="responsive-iframe-container">
   <iframe src="/assets/plotly/losses.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
 </div>
