@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ML/AI Bioinformatics
+subtitle: ML/AI Biomedical Engineer
 
 profile:
   align: right
@@ -23,7 +23,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Boston-based ML/AI bioinformatician, and both a Marine Corps and Peace Corps veteran. 
+Boston-based ML/AI Biomedical Engineer/Bioinformatician, and Marine Corps/Peace Corps veteran. 
 
 I am all about tinkering, tuning, efficiency, excellence.  After years of lab-based work in [protein engineering](https://pubs.acs.org/doi/10.1021/acs.bioconjchem.7b00668), I jumped on the [computational train](https://open.bu.edu/items/f152dd51-429f-4703-be07-eddcdb51919f). I work with Boston-based biopharmaceutical startups, architecting multi-omics data pipelines to make protein property predictions. 
 
