@@ -23,11 +23,33 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-neural-net-optimization-part-1-the-computational-graph",
+        },{id: "post-neural-net-optimization-part-3-pytorch-and-pytorch-lightning",
+        
+          title: "Neural Net Optimization, Part 3 — PyTorch and PyTorch Lightning",
+        
+        description: "The third in a four-part series on neural network optimization, focusing on PyTorch fundamentals, abstraction with PyTorch Lightning, and the ongoing challenge of hyperparameter tuning.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ml-levels-pt-three/";
+          
+        },
+      },{id: "post-neural-net-optimization-part-2-pytorch-writ-small",
+        
+          title: "Neural Net Optimization, Part 2 — PyTorch Writ Small",
+        
+        description: "The second in a four-part series on neural network optimization, focusing on PyTorch fundamentals, and how at a fundemntal level how pytorch is implemented on a per neruon level.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ml-levels-pt-two/";
+          
+        },
+      },{id: "post-neural-net-optimization-part-1-the-computational-graph",
         
           title: "Neural Net Optimization, Part 1 — The Computational Graph",
         
-        description: "The first in a three-part series exploring neural network optimization, starting from scratch with a toy computational graph and building up to scalable, practical ML systems.",
+        description: "The first in a four-part series exploring neural network optimization, starting from scratch with a toy computational graph and building up to scalable, practical ML systems.",
         section: "Posts",
         handler: () => {
           
