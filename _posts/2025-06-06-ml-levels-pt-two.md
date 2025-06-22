@@ -50,12 +50,14 @@ f(x) = \max(0, x)
 What if we used 2 neurons ina hidden layer with ReLU activations? Now we can fit a piecewise linear function with two segments:
 
 
-<details>
-   <summary><strong>Show 2 neurons regression fit</strong></summary>
-
-![Multiple Neurons Regression Fits](/assets/img/ml-levels-pt-two/combined_regression_2n.png)
-
-</details>
+<div>
+  <a href="#" onclick="var e=document.getElementById('collapse-2n'); e.style.display = (e.style.display==='none') ? 'block' : 'none'; return false;">
+    <strong>Show 2 neurons regression fit</strong>
+  </a>
+  <div id="collapse-2n" style="display:none; margin-top:10px;">
+    <img src="/assets/img/ml-levels-pt-two/combined_regression_2n.png" alt="Multiple Neurons Regression Fits" />
+  </div>
+</div>
 
 With more neurons, the network can fit more piecewise linear segments, but it still cannot capture smooth curves like a sine wave perfectly, because its fundemntally limited by the linearity of each segment.
 
