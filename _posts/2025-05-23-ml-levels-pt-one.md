@@ -1,9 +1,9 @@
 ---
 layout: distill
 title: Neural Net Optimization, Part 1 — The Computational Graph
-date: 2025-03-26 14:24:00
+date: 2025-05-23
 author: ECM
-description: The first in a three-part series exploring neural network optimization, starting from scratch with a toy computational graph and building up to scalable, practical ML systems.
+description: The first in a four-part series exploring neural network optimization, starting from scratch with a toy computational graph and building up to scalable, practical ML systems.
 tags: [ML, neural-networks, optimization, computational-graph, pytorch, hyperparameters]
 categories: blog-posts
 image: /assets/images/neural-net-graph.png
@@ -176,4 +176,4 @@ LR = 0.1
 
 ---
 
-Stay tuned for Part 2, where we’ll use PyTorch to build a more practical neural network and see how much easier (and more powerful) things become!
+*Stay tuned for Part 2, where we’ll use PyTorch to build a more practical neural network and see how much easier (and more powerful) things become!*
