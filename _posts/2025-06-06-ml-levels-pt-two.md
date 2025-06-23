@@ -3,7 +3,7 @@ layout: distill
 title: Neural Net Optimization, Part 2 — PyTorch Writ Small
 date: 2025-06-06
 author: ECM
-description: The second in a four-part series on neural network optimization, focusing on PyTorch fundamentals, and how at a fundemntal level how pytorch is implemented on a per neruon level.
+description: The second in a four-part series on neural network optimization, focusing on PyTorch fundamentals and how to implement PyTorch on a per neuron level.
 tags: [ML, neural-networks, optimization, pytorch, pytorch-lightning, hyperparameters]
 categories: blog-posts
 image: /assets/images/pytorch-vs-lightning.png
@@ -11,7 +11,7 @@ image: /assets/images/pytorch-vs-lightning.png
 
 # Fine-Grained PyTorch: What Does a Neuron Really Learn?
 
-In [Part 1](./2025-05-23-ml-levels-pt-one), we fit a 3rd order polynomial using a hand-built computational graph. Now, let’s see what a single PyTorch neuron can do.
+In [Part 1](./2025-05-23-ml-levels-pt-one), we fit a third-order polynomial equation to build a computational graph. Here in Part 2, we'll see what a single PyTorch neuron can do.
 
 ---
 
@@ -23,7 +23,7 @@ $$
 y = w x + b
 $$
 
-This is just a straight line, a first-order polynomial. No matter how complex your data, a single linear neuron can only learn a line.
+This function produces a first-order polynomial – just a straight line. No matter how complex our data, a single linear neuron can only learn a straight line:
 
 ![Single Neuron Regression Fits](/assets/img/ml-levels-pt-two/combined_regression.png)
 
@@ -47,7 +47,7 @@ f(x) = \max(0, x)
 
 ## More Neurons, More Segments
 
-What if we used 2 neurons ina hidden layer with ReLU activations? Now we can fit a piecewise linear function with two segments:
+What if we used two neurons in a hidden layer with ReLU activations? Now we can fit a piecewise linear function with two segments:
 
 
 <div>
@@ -59,7 +59,9 @@ What if we used 2 neurons ina hidden layer with ReLU activations? Now we can fit
   </div>
 </div>
 
-With more neurons, the network can fit more piecewise linear segments, but it still cannot capture smooth curves like a sine wave perfectly, because its fundemntally limited by the linearity of each segment.
+By adding more neurons, the network can fit more piecewise linear segments, but it's not able to  accommodate smooth curves, like a sine wave. The network is fundamentally limited by the linearity of each segment.
+
+It is common to include functions that have curves, e.g. using a tanH activation function instead of ReLU. However, these are typically only implemented in the final output layer.
 
 ---
 
@@ -67,7 +69,7 @@ With more neurons, the network can fit more piecewise linear segments, but it st
 
 - **Single linear neuron:** fits a straight line.
 - **Single ReLU neuron:** fits a line with a kink.
-- **Multiple ReLU neurons:** fit a piecewise linear function.
+- **Multiple ReLU neurons:** fits a piecewise linear function.
 - **Generalization:** Even with more neurons, the network struggles to extrapolate or capture smooth nonlinearities outside the training region.
 
 PyTorch builds complexity by stacking simple layers, not by fitting high-order polynomials directly. Understanding these basics helps explain both the power and the limitations of neural networks.
@@ -106,4 +108,4 @@ This simple thought experiment underscores the importance of understanding the l
 
 ---
 
-*In part 3 we'll explore how to scale up these concepts with PyTorch Lightning, focusing on abstraction and the ongoing challenge of hyperparameter tuning.*
+*In [Part 3](./2025-06-20-ml-levels-pt-three), we'll explore how to scale up these concepts with PyTorch Lightning, focusing on abstraction and the ongoing challenge of hyperparameter tuning.*
