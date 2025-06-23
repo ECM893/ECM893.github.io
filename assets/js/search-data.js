@@ -38,7 +38,7 @@ ninja.data = [{
         
           title: "Neural Net Optimization, Part 2 — PyTorch Writ Small",
         
-        description: "The second in a four-part series on neural network optimization, focusing on PyTorch fundamentals, and how at a fundemntal level how pytorch is implemented on a per neruon level.",
+        description: "The second in a four-part series on neural network optimization, focusing on PyTorch fundamentals and how to implement PyTorch on a per neuron level.",
         section: "Posts",
         handler: () => {
           
