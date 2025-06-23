@@ -36,31 +36,31 @@ All code for this post is available on [GitHub](https://github.com/ECM893/comput
 
 # The Computational Graph
 
-This is the third time in my life I’ve built this toy example from scratch, and I promise myself it’ll be the last! But it’s a fantastic way to understand the basics of neural networks, how they’re optimized, and why frameworks like PyTorch exist.
+This is the third time in my life I’ve built this example from scratch, and I promise myself it’ll be the last! But it’s a fantastic way to understand the basics of neural networks, how they’re optimized, and why frameworks like PyTorch exist.
 
 **If you’ve ever wondered what’s happening “under the hood” in PyTorch or TensorFlow, this is it: at their core, these frameworks build and manipulate computational graphs just like this one—except they do it automatically, at scale, and with hardware acceleration. Every neural network you define in PyTorch is internally represented as a computational graph, where each operation (like addition, multiplication, or activation functions) becomes a node, and the framework handles the forward and backward passes for you.**
 
-The computational graph here is made from a few simple nodes (constants, inputs, addition, multiplication, and power). A graph object manages these nodes, letting you interact with the network as a whole rather than node-by-node.
+The computational graph here is made from a few simple nodes (constants, inputs, addition, multiplication, and power). A graph object manages these nodes, letting us interact with the network as a whole rather than node-by-node.
 
 ---
 
 ## Why This Is Hard to Scale
 
-While building a computational graph from scratch is a great learning exercise, it quickly becomes impractical for real-world ML tasks. Here are two key reasons:
+While building a computational graph from scratch is a great learning exercise, it quickly becomes impractical for real-world ML tasks, for two key reasons:
 
 ### 1. Complexity and Scalability
 
 - **Manual Graph Construction:**  
-  Every operation and connection must be explicitly defined. As your network grows, this becomes tedious and error-prone.
+  Every operation and connection must be explicitly defined. As our network grows, this becomes tedious and error-prone.
 - **No GPU Support:**  
   Hand-rolled computational graphs are CPU-bound and not designed for parallel computation. Scaling to larger models or datasets (let alone running on a GPU) is a massive challenge.
 - **Debugging:**  
-  When things go wrong, it’s hard to tell if the issue is with your math, your code, or your hyperparameters.
+  When things go wrong, it’s hard to tell if the issue is with our math, our code, or our hyperparameters.
 
 ### 2. The Hyperparameter Trap
 
 - **Tuning Is Everything:**  
-  Even if your code is mathematically correct, poor hyperparameter choices (like learning rate or gradient clipping) can make your model look broken—or make a working model look perfect. The difference between “Is there a bug in my code?” and “Wow, this works perfectly!” often comes down to a few numbers.
+  Even if our code is mathematically correct, poor hyperparameter choices (like learning rate or gradient clipping) can make our model look broken — or make a working model look perfect. The difference between “Is there a bug in my code?” and “Wow, this works perfectly!” often comes down to just a few numbers.
 
 ---
 
@@ -168,12 +168,12 @@ LR = 0.1
 ## Key Takeaways
 
 - **Building from scratch is educational, but not scalable.**  
-  As soon as you want to build even simple perceptron or run on a GPU, you’ll hit a wall.
+  As soon as we want to build even simple perceptron or run on a GPU, we'll hit a wall.
 - **Hyperparameters matter as much as code.**  
-  The right settings can make your model look brilliant; the wrong ones can make you question everything.
+  The right settings can make our model look brilliant; the wrong ones can make us question everything.
 - **Frameworks exist for a reason.**  
-  PyTorch and TensorFlow automate graph construction, GPU support, and much of the tuning process so you can focus on solving real problems.
+  PyTorch and TensorFlow automate graph construction, GPU support, and much of the tuning process so that we can focus on solving real problems.
 
 ---
 
-*In Part 2, we’ll see how PyTorch implements neurons to build practical neural networks, using key concepts of computational graphs.*
+*In [Part 2](./2025-06-06-ml-levels-pt-two), we’ll see how PyTorch implements neurons to build practical neural networks, using key concepts of computational graphs.*
