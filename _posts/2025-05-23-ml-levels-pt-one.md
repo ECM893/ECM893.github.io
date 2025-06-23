@@ -131,7 +131,7 @@ LR = 0.01
   }
 }
 </style>
-update 7
+
 <div class="responsive-iframe-container">
   <iframe src="/assets/plotly/losses.html" allowfullscreen sandbox="allow-scripts allow-same-origin"></iframe>
 </div>
@@ -176,4 +176,4 @@ LR = 0.1
 
 ---
 
-*Stay tuned for Part 2, where we’ll use PyTorch to build a more practical neural network and see how much easier (and more powerful) things become!*
+*In Part 2, we’ll see how PyTorch implements neurons to build practical neural networks, using key concepts of computational graphs.*
