@@ -11,11 +11,13 @@ chart:
   plotly: true
 ---
 
-# Pytroch and other tools
+# PyTorch and Other Tools
 
-I want to breifly go over another problem statement that I sometimes come across: Training loops and for many types of architectures can be rather involved and require very similar boilerplate code that must be coded perfectly to function as intented. Starting out, or even for experienced developers, this can be a frustrating task to debug or notice that you've droped a model.train() somewhere in your code, or that you forgot to call model.eval() before running inference.
+Let's talk about a problem that I come across frequently: Training loops for any type of neural net architecture can be rather involved and inflexible, yet despite their complexity, they all rely on very similar boilerplate code. Starting out, or even for experienced developers, it can be very frustrating indeed to debug and notice that you've dropped a model.train() somewhere in your code, or that you forgot to call model.eval() before running inference.
 
-I wish I had known about [PyTorch Lightning](https://www.pytorchlightning.ai/) when starting out. Built on top of PyTorch, it abstracts away much of the boilerplate code for training neural networks, letting you focus on model architecture and training logic. Just as PyTorch simplifies tensor operations and automatic differentiation, PyTorch Lightning streamlines training loops, logging, checkpointing, and more, enabling cleaner and more maintainable code.
+I so wish I had known about [PyTorch Lightning](https://www.pytorchlightning.ai/) when starting out.
+
+PyTorch Lightning wraps PyTorch models in a class that handles training loops as part of methods of its same class, so that you do not need to explicitly write the loops! All we need to do is give the PyTorch Lightning object our optimization criteria, stoppage criteria, etc. 
 
 Let's briefly compare how you might implement a simple neural network in both PyTorch and PyTorch Lightning, and discuss why you might choose one over the other.
 
@@ -86,7 +88,7 @@ class LitModel(pl.LightningModule):
 - **Scalability:** Makes it easy to scale to multiple GPUs or TPUs.
 - **Reproducibility:** Standardizes code structure, making experiments easier to reproduce.
 
-### When Not to Use Lightning?
+### Why Use PyTorch (NOT PyTorch Lightning)?
 - **Full control needed:** If you need to customize every detail of the training loop or use highly experimental features, raw PyTorch may be preferable.
 - **Very simple scripts:** For quick experiments or teaching, plain PyTorch can be more transparent.
 
@@ -109,5 +111,5 @@ This leads to the next major challenge: **hyperparameter optimization**. Even wi
 
 ---
 
-*In Part 3, we'll explore strategies for navigating this vast hyperparameter space using a package/api called `ray`, from grid search to more advanced optimization techniques.*
+*In Part 4, we'll explore strategies for navigating this vast hyperparameter space using a package/api called `ray`, from grid search to implement more advanced optimization techniques.*
 
